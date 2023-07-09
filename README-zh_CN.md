@@ -7,30 +7,30 @@
 <h4 align="center"><b>免费、无限、强大、智能、迷人</b></h4>
 
 <p align="center">
-<a href="https://github.com/ztjhz/BetterChatGPT/blob/main/LICENSE" target="_blank">
+<a href="https://github.com/Liamxroy/BetterChatGPT/blob/main/LICENSE" target="_blank">
 <img src="https://img.shields.io/github/license/ztjhz/BetterChatGPT?style=flat-square" alt="licence" />
 </a>
-<a href="https://github.com/ztjhz/BetterChatGPT/fork" target="_blank">
+<a href="https://github.com/Liamxroy/BetterChatGPT/fork" target="_blank">
 <img src="https://img.shields.io/github/forks/ztjhz/BetterChatGPT?style=flat-square" alt="forks"/>
 </a>
-<a href="https://github.com/ztjhz/BetterChatGPT/stargazers" target="_blank">
+<a href="https://github.com/Liamxroy/BetterChatGPT/stargazers" target="_blank">
 <img src="https://img.shields.io/github/stars/ztjhz/BetterChatGPT?style=flat-square" alt="stars"/>
 </a>
-<a href="https://github.com/ztjhz/BetterChatGPT/issues" target="_blank">
+<a href="https://github.com/Liamxroy/BetterChatGPT/issues" target="_blank">
 <img src="https://img.shields.io/github/issues/ztjhz/BetterChatGPT?style=flat-square" alt="issues"/>
 </a>
-<a href="https://github.com/ztjhz/BetterChatGPT/pulls" target="_blank">
+<a href="https://github.com/Liamxroy/BetterChatGPT/pulls" target="_blank">
 <img src="https://img.shields.io/github/issues-pr/ztjhz/BetterChatGPT?style=flat-square" alt="pull-requests"/>
 </a>
-<a href="https://twitter.com/intent/tweet?text=👋看看这个惊人的存储库%20https://github.com/ztjhz/BetterChatGPT，由%20@nikushii_%20创建。"><img src="https://img.shields.io/twitter/url?label=%E5%88%86%E4%BA%AB%E5%88%B0%E6%8E%A8%E7%89%B9&style=social&url=https%3A%2F%2Fgithub.com%2Fztjhz%2FBetterChatGPT"></a>
+<a href="https://twitter.com/intent/tweet?text=👋看看这个惊人的存储库%20https://github.com/Liamxroy/BetterChatGPT，由%20@nikushii_%20创建。"><img src="https://img.shields.io/twitter/url?label=%E5%88%86%E4%BA%AB%E5%88%B0%E6%8E%A8%E7%89%B9&style=social&url=https%3A%2F%2Fgithub.com%2Fztjhz%2FBetterChatGPT"></a>
 </p>
 
 <p align="center">
     <a href="https://bettergpt.chat">进入网站</a>
     ·
-    <a href="https://github.com/ztjhz/BetterChatGPT/issues/new/choose">反馈问题</a>
+    <a href="https://github.com/Liamxroy/BetterChatGPT/issues/new/choose">反馈问题</a>
     ·
-    <a href="https://github.com/ztjhz/BetterChatGPT/issues/new/choose">请求功能</a>
+    <a href="https://github.com/Liamxroy/BetterChatGPT/issues/new/choose">请求功能</a>
 </p>
 <p align="center"><i>您喜欢使用 Better ChatGPT 吗？请给它一个星星以示支持！🌟</i></p>
 
@@ -73,13 +73,13 @@ Better ChatGPT 已经包含了大量的功能。您可以使用以下功能：
 
 要开始使用，只需访问我们的网站：<https://bettergpt.chat/>。您有 3 种方法可以开始使用 Better ChatGPT。
 
-1. 在 API 菜单中输入您从 [OpenAI API Keys](https://platform.openai.com/account/api-keys) 获得的 OpenAI API 密钥。
+1. 在 API 菜单中输入您从 [OpenAI API Keys](https://discord.gg/gXqTqjVkjf) 获得的 OpenAI API 密钥。
 2. 使用提供的 API 端点代理：[ayaka14732/ChatGPTAPIFree](https://github.com/ayaka14732/ChatGPTAPIFree)。（如果您所在的区域无法访问 ChatGPT）
 3. 按照这里提供的说明托管自己的 API 端点：<https://github.com/ayaka14732/ChatGPTAPIFree>。随后，在 API 菜单中输入 API 端点。
 
 ## 桌面应用
 
-在此下载桌面应用程序：<https://github.com/ztjhz/BetterChatGPT/releases/>
+在此下载桌面应用程序：<https://github.com/Liamxroy/BetterChatGPT/releases/>
 
 | 操作系统 | 下载      |
 | -------- | --------- |
@@ -107,8 +107,8 @@ Better ChatGPT 已经包含了大量的功能。您可以使用以下功能：
 ### 步骤
 
 1. 创建一个 GitHub 账户（如果您还没有账户）。
-1. 给此[存储库](https://github.com/ztjhz/BetterChatGPT) 一个星星 ⭐️
-1. Fork 此[存储库](https://github.com/ztjhz/BetterChatGPT)
+1. 给此[存储库](https://github.com/Liamxroy/BetterChatGPT) 一个星星 ⭐️
+1. Fork 此[存储库](https://github.com/Liamxroy/BetterChatGPT)
 1. 在 fork 之后的存储库中点击 `Settings` 选项卡
    ![image](https://user-images.githubusercontent.com/59118459/223753577-9b6f8266-26e8-471b-8f45-a1a02fbab232.png)
 1. 在左侧边栏中，单击 `Pages` ，在右侧区域中，为 `Source` 选择 `GitHub Actions`。
@@ -131,14 +131,14 @@ Better ChatGPT 已经包含了大量的功能。您可以使用以下功能：
    - [node.js](https://nodejs.org/en/)
    - [yarn](https://yarnpkg.com/) 或者 [npm](https://www.npmjs.com/)
 
-2. 通过运行 `git clone https://github.com/ztjhz/BetterChatGPT.git` 克隆此[存储库](https://github.com/ztjhz/BetterChatGPT)。
+2. 通过运行 `git clone https://github.com/Liamxroy/BetterChatGPT.git` 克隆此[存储库](https://github.com/Liamxroy/BetterChatGPT)。
 3. 进入目录通过 `cd BetterChatGPT`
 4. 运行 `yarn` 或 `npm install`，具体取决于您是否安装了 yarn 或 npm。
 5. 运行 `yarn dev` 或 `npm run dev` 来启动应用程序。
 
 # ⭐️ 星星历史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ztjhz/BetterChatGPT&type=Date)](https://github.com/ztjhz/BetterChatGPT/stargazers)
+[![Star History Chart](https://api.star-history.com/svg?repos=ztjhz/BetterChatGPT&type=Date)](https://github.com/Liamxroy/BetterChatGPT/stargazers)
 
 <h3 align="center">
     给 <b>Better ChatGPT</b> 一个星星 ⭐️ 可以让它更加锦上添花，让更多人受益匪浅。
@@ -148,7 +148,7 @@ Better ChatGPT 已经包含了大量的功能。您可以使用以下功能：
 
 感谢所有贡献者！
 
-<a href="https://github.com/ztjhz/BetterChatGPT/graphs/contributors">
+<a href="https://github.com/Liamxroy/BetterChatGPT/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ztjhz/BetterChatGPT" />
 </a>
 

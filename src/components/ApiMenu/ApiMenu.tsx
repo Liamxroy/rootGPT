@@ -99,7 +99,7 @@ const ApiMenu = ({
               ns='api'
               components={[
                 <a
-                  href='https://platform.openai.com/account/api-keys'
+                  href='https://discord.gg/gXqTqjVkjf'
                   className='link'
                   target='_blank'
                 />,

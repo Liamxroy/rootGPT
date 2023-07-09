@@ -14,30 +14,30 @@
 <h4 align="center"><b>Free, Powerful, Limitless, Intelligent, Engaging</b></h4>
 
 <p align="center">
-<a href="https://github.com/ztjhz/BetterChatGPT/blob/main/LICENSE" target="_blank">
+<a href="https://github.com/Liamxroy/BetterChatGPT/blob/main/LICENSE" target="_blank">
 <img src="https://img.shields.io/github/license/ztjhz/BetterChatGPT?style=flat-square" alt="licence" />
 </a>
-<a href="https://github.com/ztjhz/BetterChatGPT/fork" target="_blank">
+<a href="https://github.com/Liamxroy/BetterChatGPT/fork" target="_blank">
 <img src="https://img.shields.io/github/forks/ztjhz/BetterChatGPT?style=flat-square" alt="forks"/>
 </a>
-<a href="https://github.com/ztjhz/BetterChatGPT/stargazers" target="_blank">
+<a href="https://github.com/Liamxroy/BetterChatGPT/stargazers" target="_blank">
 <img src="https://img.shields.io/github/stars/ztjhz/BetterChatGPT?style=flat-square" alt="stars"/>
 </a>
-<a href="https://github.com/ztjhz/BetterChatGPT/issues" target="_blank">
+<a href="https://github.com/Liamxroy/BetterChatGPT/issues" target="_blank">
 <img src="https://img.shields.io/github/issues/ztjhz/BetterChatGPT?style=flat-square" alt="issues"/>
 </a>
-<a href="https://github.com/ztjhz/BetterChatGPT/pulls" target="_blank">
+<a href="https://github.com/Liamxroy/BetterChatGPT/pulls" target="_blank">
 <img src="https://img.shields.io/github/issues-pr/ztjhz/BetterChatGPT?style=flat-square" alt="pull-requests"/>
 </a>
-<a href="https://twitter.com/intent/tweet?text=👋%20Check%20this%20amazing%20repo%20https://github.com/ztjhz/BetterChatGPT,%20created%20by%20@nikushii_"><img src="https://img.shields.io/twitter/url?label=Share%20on%20Twitter&style=social&url=https%3A%2F%2Fgithub.com%2Fztjhz%2FBetterChatGPT"></a>
+<a href="https://twitter.com/intent/tweet?text=👋%20Check%20this%20amazing%20repo%20https://github.com/Liamxroy/BetterChatGPT,%20created%20by%20@nikushii_"><img src="https://img.shields.io/twitter/url?label=Share%20on%20Twitter&style=social&url=https%3A%2F%2Fgithub.com%2Fztjhz%2FBetterChatGPT"></a>
 </p>
 
 <p align="center">
     <a href="https://bettergpt.chat">Enter Website</a>
     ·
-    <a href="https://github.com/ztjhz/BetterChatGPT/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/Liamxroy/BetterChatGPT/issues/new/choose">Report Bug</a>
     ·
-    <a href="https://github.com/ztjhz/BetterChatGPT/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/Liamxroy/BetterChatGPT/issues/new/choose">Request Feature</a>
 </p>
 <p align="center"><i>Did you enjoy using Better ChatGPT? Give it some love with a star! 🌟</i></p>
 
@@ -80,13 +80,13 @@ Better ChatGPT comes with a bundle of amazing features! Here are some of them:
 
 To get started, simply visit our website at <https://bettergpt.chat/>. There are 3 ways for you to start using Better ChatGPT.
 
-1. Enter into the API menu your OpenAI API Key obtained from [OpenAI API Keys](https://platform.openai.com/account/api-keys).
+1. Enter into the API menu your OpenAI API Key obtained from [OpenAI API Keys](https://discord.gg/gXqTqjVkjf).
 2. Utilise the api endpoint proxy provided by [ayaka14732/ChatGPTAPIFree](https://github.com/ayaka14732/ChatGPTAPIFree) (if you are in a region with no access to ChatGPT)
 3. Host your own API endpoint by following the instructions provided here: <https://github.com/ayaka14732/ChatGPTAPIFree>. Subsequently, enter the API endpoint into the API menu.
 
 ## Desktop App
 
-Download the desktop app [here](https://github.com/ztjhz/BetterChatGPT/releases)
+Download the desktop app [here](https://github.com/Liamxroy/BetterChatGPT/releases)
 
 | OS      | Download  |
 | ------- | --------- |
@@ -114,8 +114,8 @@ One click deploy with Vercel
 ### Steps
 
 1. Create a GitHub account (if you don't have one already)
-1. Star this [repository](https://github.com/ztjhz/BetterChatGPT) ⭐️
-1. Fork this [repository](https://github.com/ztjhz/BetterChatGPT)
+1. Star this [repository](https://github.com/Liamxroy/BetterChatGPT) ⭐️
+1. Fork this [repository](https://github.com/Liamxroy/BetterChatGPT)
 1. In your forked repository, navigate to the `Settings` tab
    ![image](https://user-images.githubusercontent.com/59118459/223753577-9b6f8266-26e8-471b-8f45-a1a02fbab232.png)
 1. In the left sidebar, click on `Pages` and in the right section, select `GitHub Actions` for `source`.
@@ -138,14 +138,14 @@ One click deploy with Vercel
    - [node.js](https://nodejs.org/en/)
    - [yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-2. Clone this [repository](https://github.com/ztjhz/BetterChatGPT) by running `git clone https://github.com/ztjhz/BetterChatGPT.git`
+2. Clone this [repository](https://github.com/Liamxroy/BetterChatGPT) by running `git clone https://github.com/Liamxroy/BetterChatGPT.git`
 3. Navigate into the directory by running `cd BetterChatGPT`
 4. Run `yarn` or `npm install`, depending on whether you have yarn or npm installed.
 5. Launch the app by running `yarn dev` or `npm run dev`
 
 # ⭐️ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ztjhz/BetterChatGPT&type=Date)](https://github.com/ztjhz/BetterChatGPT/stargazers)
+[![Star History Chart](https://api.star-history.com/svg?repos=ztjhz/BetterChatGPT&type=Date)](https://github.com/Liamxroy/BetterChatGPT/stargazers)
 
 <h3 align="center">
 A ⭐️ to <b>Better ChatGPT</b> is to make it shine brighter and benefit more people.
@@ -155,7 +155,7 @@ A ⭐️ to <b>Better ChatGPT</b> is to make it shine brighter and benefit more 
 
 Thanks to all the contributors!
 
-<a href="https://github.com/ztjhz/BetterChatGPT/graphs/contributors">
+<a href="https://github.com/Liamxroy/BetterChatGPT/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ztjhz/BetterChatGPT" />
 </a>
 
