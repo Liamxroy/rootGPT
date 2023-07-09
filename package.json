@@ -17,7 +17,7 @@
   },
   "build": {
     "appId": "better-chatgpt",
-    "productName": "Better ChatGPT",
+    "productName": "GreedyGPT",
     "artifactName": "${os}-${name}-${version}-${arch}.${ext}",
     "directories": {
       "output": "release"
