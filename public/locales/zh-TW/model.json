@@ -3,7 +3,7 @@
   "model": "模型",
   "token": {
     "label": "最大 Token",
-    "description": "助手生成一條資訊可以包含的最大 token 數。最大 token 數也受到模型的總長度限制，上文的 token 數和生成的 token 數之和不能超過模型的 token 總數（例如 gpt-3.5-turbo 的 token 總數是 4096）。"
+    "description": "助手生成一條資訊可以包含的最大 token 數。最大 token 數也受到模型的總長度限制，上文的 token 數和生成的 token 數之和不能超過模型的 token 總數（例如 gpt-4 的 token 總數是 4096）。"
   },
   "default": "預設",
   "temperature": {
