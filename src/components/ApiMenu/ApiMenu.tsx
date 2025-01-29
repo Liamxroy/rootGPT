@@ -99,7 +99,7 @@ const ApiMenu = ({
               ns='api'
               components={[
                 <a
-                  href='https://discord.gg/gXqTqjVkjf'
+                  href='https://liamxroy.dev'
                   className='link'
                   target='_blank'
                 />,

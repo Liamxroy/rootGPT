@@ -1,12 +1,12 @@
 {
-  "name": "greedygpt",
+  "name": "rootgpt",
   "private": true,
   "version": "1.0.4",
   "type": "module",
   "homepage": "./",
   "main": "electron/index.cjs",
   "author": "Liamxroy <liamxroy@gmail.com>",
-  "description": "Play and chat smarter with BetterChatGPT - an amazing open-source web app with a better UI for exploring OpenAI's ChatGPT API!",
+  "description": "Play and chat smarter with rootGPT - an amazing open-source web app with a better UI for exploring OpenAI's ChatGPT API!",
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build",
@@ -17,7 +17,7 @@
   },
   "build": {
     "appId": "better-chatgpt",
-    "productName": "GreedyGPT",
+    "productName": "rootGPT",
     "artifactName": "${os}-${name}-${version}-${arch}.${ext}",
     "directories": {
       "output": "release"

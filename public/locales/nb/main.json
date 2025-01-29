@@ -1,6 +1,6 @@
 {
   "save": "Lagre",
-  "saveAndSubmit": "Lagre & Send inn",
+  "generate": "Generere",
   "cancel": "Avbryt",
   "confirm": "Bekreft",
   "warning": "Advarsel",
@@ -9,7 +9,7 @@
   "clearConversation": "Tøm samtale",
   "import": "Importer",
   "export": "Eksporter",
-  "author": "Laget av Jing Hua",
+  "author": "Laget av Liamxroy",
   "about": "Om & Sponsor",
   "api": "API",
   "personal": "Personlig",

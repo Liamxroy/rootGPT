@@ -1,6 +1,6 @@
 {
   "save": "Сохранить",
-  "saveAndSubmit": "Сохранить и отправить",
+  "generate": "Генерировать",
   "cancel": "Отмена",
   "confirm": "Подтвердить",
   "warning": "Предупреждение",
@@ -9,7 +9,7 @@
   "clearConversation": "Очистить историю разговора",
   "import": "Импорт",
   "export": "Экспорт",
-  "author": "Автор: Jing Hua",
+  "author": "Автор: Liamxroy",
   "about": "О программе и спонсоре",
   "api": "API",
   "personal": "Личный",

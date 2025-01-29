@@ -1,6 +1,6 @@
 {
   "save": "Simpan",
-  "saveAndSubmit": "Simpan & Hantar",
+  "generate": "Hasilkan",
   "cancel": "Batal",
   "confirm": "Sahkan",
   "warning": "Amaran",
@@ -9,7 +9,7 @@
   "clearConversation": "Padam Perbualan",
   "import": "Import",
   "export": "Eksport",
-  "author": "Dibuat oleh Jing Hua",
+  "author": "Dibuat oleh Liamxroy",
   "about": "Mengenai & Penaja",
   "api": "API",
   "personal": "Peribadi",

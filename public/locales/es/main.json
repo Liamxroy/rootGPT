@@ -1,6 +1,6 @@
 {
   "save": "Guardar",
-  "saveAndSubmit": "Guardar y enviar",
+  "generate": "Generar",
   "cancel": "Cancelar",
   "confirm": "Aceptar",
   "warning": "Aviso",
@@ -9,7 +9,7 @@
   "clearConversation": "Limpiar conversación",
   "import": "Importar",
   "export": "Exportar",
-  "author": "Hecho por Jing Hua",
+  "author": "Hecho por Liamxroy",
   "about": "Acerca de y Patrocinadores",
   "api": "API",
   "personal": "Personal",

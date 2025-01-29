@@ -1,6 +1,6 @@
 {
   "save": "Spara",
-  "saveAndSubmit": "Spara & Skicka in",
+  "generate": "Generera",
   "cancel": "Avbryt",
   "confirm": "Bekräfta",
   "warning": "Varning",
@@ -9,7 +9,7 @@
   "clearConversation": "Rensa konversation",
   "import": "Importera",
   "export": "Exportera",
-  "author": "Skapad av Jing Hua",
+  "author": "Skapad av Liamxroy",
   "about": "Om & Sponsor",
   "api": "API",
   "personal": "Personlig",

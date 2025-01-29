@@ -1,6 +1,6 @@
 {
    "save": "Salvează",
-   "saveAndSubmit": "Salvați și trimiteți",
+   "generate": "Generează",
    "cancel": "Anulează",
    "confirm": "Confirmați",
    "warning": "Avertisment",
@@ -9,7 +9,7 @@
    "clearConversation": "Ștergeți istoricul conversațiilor",
    "import": "Import",
    "export": "Export",
-   "author": "Făcut de Jing Hua",
+   "author": "Făcut de Liamxroy",
    "about": "Despre și sponsorizează",
    "api": "API",
    "personal": "Personal",
