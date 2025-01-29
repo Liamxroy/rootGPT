@@ -19,19 +19,21 @@ export const getChatCompletion = async (
     headers['api-key'] = apiKey;
 
     const modelmapping: Partial<Record<ModelOptions, string>> = {
-      'gpt-3.5-turbo': 'gpt-35-turbo',
-      'gpt-3.5-turbo-16k': 'gpt-35-turbo-16k',
-      'gpt-3.5-turbo-1106': 'gpt-35-turbo-1106',
-      'gpt-3.5-turbo-0125': 'gpt-35-turbo-0125',
+      'gpt-4o': 'gpt-4o',
+      'gpt-4o-mini': 'gpt-4o-mini',
+      'gpt-4-turbo': 'gpt-4-turbo',
+      'gpt-3.5-turbo': 'gpt-3.5-turbo',
+      'o1': 'o1',
+      'deepseek-chat': 'deepseek-chat',
+      'claude-3.5-sonnet': 'claude-3.5-sonnet',
+      'mistral-large': 'mistral-large',
+      'mixtral-8x7b-instruct': 'mixtral-8x7b-instruct'
     };
 
     const model = modelmapping[config.model] || config.model;
 
     // set api version to 2023-07-01-preview for gpt-4 and gpt-4-32k, otherwise use 2023-03-15-preview
-    const apiVersion =
-      model === 'gpt-4' || model === 'gpt-4-32k'
-        ? '2023-07-01-preview'
-        : '2023-03-15-preview';
+    const apiVersion = '2023-07-01-preview';
 
     const path = `openai/deployments/${model}/chat/completions?api-version=${apiVersion}`;
 
@@ -75,17 +77,15 @@ export const getChatCompletionStream = async (
     headers['api-key'] = apiKey;
 
     const modelmapping: Partial<Record<ModelOptions, string>> = {
-      'gpt-3.5-turbo': 'gpt-35-turbo',
-      'gpt-3.5-turbo-16k': 'gpt-35-turbo-16k',
+      'gpt-4o': 'gpt-4o',
+      'gpt-4-turbo': 'gpt-4-turbo',
+      'gpt-3.5-turbo': 'gpt-3.5-turbo',
     };
 
     const model = modelmapping[config.model] || config.model;
 
     // set api version to 2023-07-01-preview for gpt-4 and gpt-4-32k, otherwise use 2023-03-15-preview
-    const apiVersion =
-      model === 'gpt-4' || model === 'gpt-4-32k'
-        ? '2023-07-01-preview'
-        : '2023-03-15-preview';
+    const apiVersion = '2023-07-01-preview';
     const path = `openai/deployments/${model}/chat/completions?api-version=${apiVersion}`;
 
     if (!endpoint.endsWith(path)) {
@@ -111,7 +111,7 @@ export const getChatCompletionStream = async (
     if (text.includes('model_not_found')) {
       throw new Error(
         text +
-          '\nMessage from rootGPT:\nPlease ensure that you have access to the GPT-4 API!'
+          '\nMessage from rootGPT:\nPlease ensure that you have access to the Naga API!'
       );
     } else {
       throw new Error(
