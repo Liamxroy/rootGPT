@@ -61,7 +61,7 @@ const ApiPopup = () => {
             ns='api'
             components={[
               <a
-                href='https://liamxroy.dev'
+                href='https://liamxroy.dev/apikey'
                 className='link'
                 target='_blank'
               />,
