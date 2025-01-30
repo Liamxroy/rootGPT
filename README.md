@@ -1,7 +1,7 @@
 <h1 align="center"><b>rootGPT</b></h1>
 
 <p align="center">
-    <a href="https://bettergpt.chat" target="_blank"><img src="public/apple-touch-icon.png" alt="rootGPT" width="100" /></a>
+    <a href="https://ai.liamxroy.dev" target="_blank"><img src="public/apple-touch-icon.png" alt="rootGPT" width="100" /></a>
 </p>
 
 <h4 align="center"><b>Free, Powerful, Limitless, Intelligent, Engaging</b></h4>
@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-    <a href="https://bettergpt.chat">Enter Website</a>
+    <a href="https://ai.liamxroy.dev">Enter Website</a>
     ·
     <a href="https://github.com/Liamxroy/rootGPT/issues/new/choose">Report Bug</a>
     ·
@@ -37,7 +37,7 @@
 ## 👋🏻 Introducing rootGPT
 
 <p align="center">
-    <a href="https://bettergpt.chat" target="_blank">
+    <a href="https://ai.liamxroy.dev" target="_blank">
         <img src="assets/preview.png" alt="landing" width=500 />
     </a>
 </p>
@@ -71,7 +71,7 @@ rootGPT comes with a bundle of amazing features! Here are some of them:
 
 # 🛠️ Usage
 
-To get started, simply visit our website at <https://bettergpt.chat/>. There are 3 ways for you to start using rootGPT.
+To get started, simply visit our website at <https://ai.liamxroy.dev/>. There are 3 ways for you to start using rootGPT.
 
 1. Enter into the API menu your OpenAI API Key obtained from [OpenAI API Keys](https://discord.gg/gXqTqjVkjf).
 2. Utilise the api endpoint proxy provided by [ayaka14732/ChatGPTAPIFree](https://github.com/ayaka14732/ChatGPTAPIFree) (if you are in a region with no access to ChatGPT)
