@@ -33,7 +33,7 @@ export const modelOptions: ModelOptions[] = [
   'claude-3.5-sonnet',
   'claude-3.5-haiku',
   'claude-3-opus',
-  'mistral-large', 
+  'mistral-large',
   'mixtral-8x7b-instruct',
   'llama-3-70b-instruct',
   'grok-3-early',
@@ -41,7 +41,7 @@ export const modelOptions: ModelOptions[] = [
   'sonar-reasoning-pro',
   'mythomax-l2-13b',
   'wizardlm-2-8x22b',
-  'qwen-turbo',
+  'qwen-turbo'
 ];
 
 export const defaultModel = 'gpt-4o';
@@ -71,7 +71,7 @@ export const modelMaxToken = {
   'sonar-reasoning-pro': 128000,
   'mythomax-l2-13b': 128000,
   'wizardlm-2-8x22b': 128000,
-  'qwen-turbo': 128000,
+  'qwen-turbo': 128000
 };
 
 export const modelCost = {
@@ -97,7 +97,6 @@ export const modelCost = {
   'mythomax-l2-13b': { prompt: { price: 3.25e-8, unit: 1 }, completion: { price: 3.25e-8, unit: 1 } }
   'wizardlm-2-8x22b': { prompt: { price: 2.5e-7, unit: 1 }, completion: { price: 2.5e-7, unit: 1 } }
   'qwen-turbo': { prompt: { price: 2.5e-8, unit: 1 }, completion: { price: 1e-7, unit: 1 } }
-  
 };
 
 export const defaultUserMaxToken = 4000;
