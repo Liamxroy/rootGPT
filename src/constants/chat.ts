@@ -35,7 +35,13 @@ export const modelOptions: ModelOptions[] = [
   'claude-3-opus',
   'mistral-large', 
   'mixtral-8x7b-instruct',
-  'llama-3-70b-instruct'
+  'llama-3-70b-instruct',
+  'grok-3-early',
+  'grok-2',
+  'sonar-reasoning-pro',
+  'mythomax-l2-13b',
+  'wizardlm-2-8x22b',
+  'qwen-turbo',
 ];
 
 export const defaultModel = 'gpt-4o';
@@ -59,7 +65,13 @@ export const modelMaxToken = {
   'claude-3-opus': 200000,
   'mistral-large': 128000,
   'mixtral-8x7b-instruct': 128000,
-  'llama-3-70b-instruct': 128000
+  'llama-3-70b-instruct': 128000,
+  'grok-3-early': 128000,
+  'grok-2': 128000,
+  'sonar-reasoning-pro': 128000,
+  'mythomax-l2-13b': 128000,
+  'wizardlm-2-8x22b': 128000,
+  'qwen-turbo': 128000,
 };
 
 export const modelCost = {
@@ -79,6 +91,13 @@ export const modelCost = {
   'mistral-large': { prompt: { price: 0.000001, unit: 1 }, completion: { price: 0.000003, unit: 1 } },
   'mixtral-8x7b-instruct': { prompt: { price: 2.25E-7, unit: 1 }, completion: { price: 2.5E-7, unit: 1 } },
   'llama-3-70b-instruct': { prompt: { price: 4.2E-7, unit: 1 }, completion: { price: 4.45E-7, unit: 1 } }
+  'grok-3-early': { prompt: { price: 0.0000025, unit: 1 }, completion: { price: 0.0000075, unit: 1 } }
+  'grok-2': { prompt: { price: 0.000001, unit: 1 }, completion: { price: 0.000005, unit: 1 } }
+  'sonar-reasoning-pro': { prompt: { price: 0.000001, unit: 1 }, completion: { price: 0.000004, unit: 1 } }
+  'mythomax-l2-13b': { prompt: { price: 3.25e-8, unit: 1 }, completion: { price: 3.25e-8, unit: 1 } }
+  'wizardlm-2-8x22b': { prompt: { price: 2.5e-7, unit: 1 }, completion: { price: 2.5e-7, unit: 1 } }
+  'qwen-turbo': { prompt: { price: 2.5e-8, unit: 1 }, completion: { price: 1e-7, unit: 1 } }
+  
 };
 
 export const defaultUserMaxToken = 4000;

@@ -68,7 +68,13 @@ export type ModelOptions =
   |  'claude-3-opus'
   |  'mistral-large'
   |  'mixtral-8x7b-instruct'
-  |  'llama-3-70b-instruct';
+  |  'llama-3-70b-instruct'
+  |  'grok-3-early'
+  |  'grok-2'
+  |  'sonar-reasoning-pro'
+  |  'mythomax-l2-13b'
+  |  'wizardlm-2-8x22b'
+  |  'qwen-turbo';
 
 export type TotalTokenUsed = {
   [model in ModelOptions]?: {

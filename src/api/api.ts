@@ -27,7 +27,13 @@ export const getChatCompletion = async (
       'deepseek-chat': 'deepseek-chat',
       'claude-3.5-sonnet': 'claude-3.5-sonnet',
       'mistral-large': 'mistral-large',
-      'mixtral-8x7b-instruct': 'mixtral-8x7b-instruct'
+      'mixtral-8x7b-instruct': 'mixtral-8x7b-instruct',
+	  'grok-3-early': 'grok-3-early',
+	  'grok-2': 'grok-2',
+	  'sonar-reasoning-pro': 'sonar-reasoning-pro',
+	  'mythomax-l2-13b': 'mythomax-l2-13b',
+	  'wizardlm-2-8x22b': 'wizardlm-2-8x22b',
+	  'qwen-turbo': 'qwen-turbo',
     };
 
     const model = modelmapping[config.model] || config.model;
