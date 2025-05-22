@@ -16,6 +16,7 @@ export const _defaultSystemMessage =
   `You are a large language model. You answer as concisely as possible for each response. Respond using Markdown.`;
 
 export const modelOptions: ModelOptions[] = [
+  'gpt-4.1',
   'gpt-4o',
   'gpt-4o-2024-11-20',
   'gpt-4o-mini',
@@ -47,6 +48,7 @@ export const modelOptions: ModelOptions[] = [
 export const defaultModel = 'gpt-4o';
 
 export const modelMaxToken = {
+  'gpt-4.1': 128000,
   'gpt-4o': 128000,
   'gpt-4o-2024-11-20': 128000,
   'gpt-4o-mini': 128000,
@@ -75,6 +77,7 @@ export const modelMaxToken = {
 };
 
 export const modelCost = {
+  'gpt-4.1': { prompt: { price: 0.00000125, unit: 1 }, completion: { price: 0.000005, unit: 1 } },
   'gpt-4o': { prompt: { price: 0.00000125, unit: 1 }, completion: { price: 0.000005, unit: 1 } },
   'gpt-4o-2024-11-20': { prompt: { price: 0.00000125, unit: 1 }, completion: { price: 0.000005, unit: 1 } },
   'gpt-4o-mini': { prompt: { price: 7.5E-8, unit: 1 }, completion: { price: 3E-7, unit: 1 } },
