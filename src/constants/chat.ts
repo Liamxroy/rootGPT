@@ -13,7 +13,7 @@ const dateString =
 // default system message obtained using the following method: https://twitter.com/DeminDimin/status/1619935545144279040
 export const _defaultSystemMessage =
   import.meta.env.VITE_DEFAULT_SYSTEM_MESSAGE ??
-  `You are a large language model. You answer as concisely as possible for each response. Respond using Markdown.`;
+  `You answer as concisely as possible for each response. Respond using Markdown.`;
 
 export const modelOptions: ModelOptions[] = [
   'gpt-4.1',
@@ -52,6 +52,8 @@ export const modelOptions: ModelOptions[] = [
   'deepseek-chat',
   'deepseek-reasoner',
   'deepseek-prover-v2',
+  'claude-opus-4',
+  'claude-sonnet-4',
   'claude-3.7-sonnet',
   'claude-3.7-sonnet-20250219',
   'claude-3.5-sonnet',
@@ -135,6 +137,7 @@ export const modelOptions: ModelOptions[] = [
   'gemini-2.5-pro-preview-03-25',
   'gemini-2.5-flash-preview',
   'gemini-2.5-flash-preview-04-17',
+  'gemini-2.5-flash-preview-05-20',
   'command-a',
   'command-a-03-2025',
   'command-r-plus',
@@ -187,6 +190,8 @@ export const modelMaxToken = {
   'deepseek-chat': 128000,
   'deepseek-reasoner': 128000,
   'deepseek-prover-v2': 128000,
+  'claude-opus-4' : 200000,
+  'claude-sonnet-4' : 200000,
   'claude-3.7-sonnet': 200000,
   'claude-3.7-sonnet-20250219': 200000,
   'claude-3.5-sonnet': 200000,
@@ -270,6 +275,7 @@ export const modelMaxToken = {
   'gemini-2.5-pro-preview-03-25': 32768,
   'gemini-2.5-flash-preview': 32768,
   'gemini-2.5-flash-preview-04-17': 32768,
+  'gemini-2.5-flash-preview-05-20': 32768,
   'command-a': 128000,
   'command-a-03-2025': 128000,
   'command-r-plus': 128000,
@@ -320,6 +326,8 @@ export const modelCost = {
   'deepseek-chat': { prompt: { price: 7E-8, unit: 1 }, completion: { price: 1.4E-7, unit: 1 } },
   'deepseek-reasoner': { prompt: { price: 2.75E-7, unit: 1 }, completion: { price: 0.000001095, unit: 1 } },
   'deepseek-prover-v2': { prompt: { price: 3.5e-7, unit: 1 }, completion: { price: 0.00000125, unit: 1 } },
+  'claude-opus-4': { prompt: { price: 0.0000015, unit: 1 }, completion: { price: 0.0000075, unit: 1 } },
+  'claude-sonnet-4': { prompt: { price: 0.0000015, unit: 1 }, completion: { price: 0.0000075, unit: 1 } },
   'claude-3.7-sonnet': { prompt: { price: 0.0000015, unit: 1 }, completion: { price: 0.0000075, unit: 1 } },
   'claude-3.7-sonnet-20250219': { prompt: { price: 0.0000015, unit: 1 }, completion: { price: 0.0000075, unit: 1 } },
   'claude-3.5-sonnet': { prompt: { price: 0.0000015, unit: 1 }, completion: { price: 0.0000075, unit: 1 } },
@@ -403,6 +411,7 @@ export const modelCost = {
   'gemini-2.5-pro-preview-03-25' : { prompt: { price: 3e-8, unit: 1 }, completion: { price: 3e-8, unit: 1 } },
   'gemini-2.5-flash-preview' : { prompt: { price: 3e-8, unit: 1 }, completion: { price: 3e-8, unit: 1 } },
   'gemini-2.5-flash-preview-04-17'	: { prompt: { price: 3e-8, unit: 1 }, completion: { price: 3e-8, unit: 1 } },
+  'gemini-2.5-flash-preview-05-20'	: { prompt: { price: 3e-8, unit: 1 }, completion: { price: 3e-8, unit: 1 } },
   'command-a' : { prompt: { price: 3e-8, unit: 1 }, completion: { price: 3e-8, unit: 1 } },
   'command-a-03-2025' : { prompt: { price: 3e-8, unit: 1 }, completion: { price: 3e-8, unit: 1 } },
   'command-r-plus' : { prompt: { price: 3e-8, unit: 1 }, completion: { price: 3e-8, unit: 1 } },
