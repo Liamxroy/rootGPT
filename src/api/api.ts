@@ -97,14 +97,12 @@ export const getChatCompletion = async (
       'llama-4-scout-17b-16e-instruct': 'llama-4-scout-17b-16e-instruct',
       'llama-4-maverick-17b-128e-instruct': 'llama-4-maverick-17b-128e-instruct',
       'llama-guard-4-12b': 'llama-guard-4-12b',
-      'grok-3-beta': 'grok-3-beta',
-      'grok-3-mini-beta': 'grok-3-mini-beta',
+      'grok-3': 'grok-3',
+      'grok-3-mini': 'grok-3-mini',
       'grok-2': 'grok-2',
       'grok-2-1212': 'grok-2-1212',
       'grok-2-vision': 'grok-2-vision',
       'grok-2-vision-1212': 'grok-2-vision-1212',
-      'grok-vision-beta': 'grok-vision-beta',
-      'grok-beta': 'grok-beta',
       'sonar-reasoning-pro': 'sonar-reasoning-pro',
       'sonar-reasoning': 'sonar-reasoning',
       'sonar-pro': 'sonar-pro',
@@ -150,7 +148,8 @@ export const getChatCompletion = async (
       'learnlm-1.5-pro-experimental': 'learnlm-1.5-pro-experimental',
       'chatgpt-4o-latest': 'chatgpt-4o-latest',
       'gpt-4o-search-preview': 'gpt-4o-search-preview',
-      'gpt-4o-search-preview-2025-03-11':'gpt-4o-search-preview-2025-03-11'
+      'gpt-4o-search-preview-2025-03-11':'gpt-4o-search-preview-2025-03-11',
+	  'minimax-m1':'minimax-m1'
     };
 
     const model = modelmapping[config.model] || config.model;

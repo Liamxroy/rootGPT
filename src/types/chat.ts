@@ -129,14 +129,12 @@ export type ModelOptions =
 | 'llama-4-scout-17b-16e-instruct'
 | 'llama-4-maverick-17b-128e-instruct'
 | 'llama-guard-4-12b'
-| 'grok-3-beta'
-| 'grok-3-mini-beta'
+| 'grok-3'
+| 'grok-3-mini'
 | 'grok-2'
 | 'grok-2-1212'
 | 'grok-2-vision'
 | 'grok-2-vision-1212'
-| 'grok-vision-beta'
-| 'grok-beta'
 | 'sonar-reasoning-pro'
 | 'sonar-reasoning'
 | 'sonar-pro'
@@ -183,6 +181,7 @@ export type ModelOptions =
 | 'chatgpt-4o-latest'
 | 'gpt-4o-search-preview'
 | 'gpt-4o-search-preview-2025-03-11'
+| 'minimax-m1'
 ;
 
 export type TotalTokenUsed = {

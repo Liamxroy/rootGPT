@@ -95,14 +95,12 @@ export const modelOptions: ModelOptions[] = [
   'llama-4-scout-17b-16e-instruct',
   'llama-4-maverick-17b-128e-instruct',
   'llama-guard-4-12b',
-  'grok-3-beta',
-  'grok-3-mini-beta',
+  'grok-3',
+  'grok-3-mini',
   'grok-2',
   'grok-2-1212',
   'grok-2-vision',
   'grok-2-vision-1212',
-  'grok-vision-beta',
-  'grok-beta',
   'sonar-reasoning-pro',
   'sonar-reasoning',
   'sonar-pro',
@@ -148,7 +146,8 @@ export const modelOptions: ModelOptions[] = [
   'learnlm-1.5-pro-experimental',
   'chatgpt-4o-latest',
   'gpt-4o-search-preview',
-  'gpt-4o-search-preview-2025-03-11'
+  'gpt-4o-search-preview-2025-03-11',
+  'minimax-m1'
 ];
 
 export const defaultModel = 'gpt-4o';
@@ -233,14 +232,12 @@ export const modelMaxToken = {
   'llama-4-scout-17b-16e-instruct': 128000,
   'llama-4-maverick-17b-128e-instruct': 128000,
   'llama-guard-4-12b': 128000,
-  'grok-3-beta': 128000,
-  'grok-3-mini-beta': 128000,
+  'grok-3': 128000,
+  'grok-3-mini': 128000,
   'grok-2': 128000,
   'grok-2-1212': 128000,
   'grok-2-vision': 128000,
   'grok-2-vision-1212': 128000,
-  'grok-vision-beta': 128000,
-  'grok-beta': 128000,
   'sonar-reasoning-pro': 128000,
   'sonar-reasoning': 128000,
   'sonar-pro': 128000,
@@ -287,6 +284,7 @@ export const modelMaxToken = {
   'chatgpt-4o-latest': 128000,
   'gpt-4o-search-preview': 128000,
   'gpt-4o-search-preview-2025-03-11': 128000
+  'minimax-m1': 128000
 };
 
 export const modelCost = {
@@ -369,14 +367,12 @@ export const modelCost = {
   'llama-4-scout-17b-16e-instruct': { prompt: { price: 2.4e-7, unit: 1 }, completion: { price: 9.6e-7, unit: 1 } },
   'llama-4-maverick-17b-128e-instruct': { prompt: { price: 2.75e-7, unit: 1 }, completion: { price: 0.000001095, unit: 1 } },
   'llama-guard-4-12b': { prompt: { price: 2.5e-8, unit: 1 }, completion: { price: 2.5e-8, unit: 1 } },
-  'grok-3-beta': { prompt: { price: 0.0000015, unit: 1 }, completion: { price: 0.0000075, unit: 1 } },
-  'grok-3-mini-beta': { prompt: { price: 1.5e-7, unit: 1 }, completion: { price: 2.5e-7, unit: 1 } },
+  'grok-3': { prompt: { price: 0.0000015, unit: 1 }, completion: { price: 0.0000075, unit: 1 } },
+  'grok-3-mini': { prompt: { price: 1.5e-7, unit: 1 }, completion: { price: 2.5e-7, unit: 1 } },
   'grok-2': { prompt: { price: 0.000001, unit: 1 }, completion: { price: 0.000005, unit: 1 } },
   'grok-2-1212': { prompt: { price: 0.000001, unit: 1 }, completion: { price: 0.000005, unit: 1 } },
   'grok-2-vision': { prompt: { price: 0.000001, unit: 1 }, completion: { price: 0.000005, unit: 1 } },
   'grok-2-vision-1212': { prompt: { price: 0.000001, unit: 1 }, completion: { price: 0.000005, unit: 1 } },
-  'grok-vision-beta': { prompt: { price: 0.0000025, unit: 1 }, completion: { price: 0.0000075, unit: 1 } },
-  'grok-beta': { prompt: { price: 0.0000025, unit: 1 }, completion: { price: 0.0000075, unit: 1 } },
   'sonar-reasoning-pro': { prompt: { price: 0.000001, unit: 1 }, completion: { price: 0.000004, unit: 1 } },
   'sonar-reasoning': { prompt: { price: 5e-7, unit: 1 }, completion: { price: 0.0000025, unit: 1 } },
   'sonar-pro': { prompt: { price: 0.0000015, unit: 1 }, completion: { price: 0.0000075, unit: 1 } },
@@ -423,6 +419,7 @@ export const modelCost = {
   'chatgpt-4o-latest' : { prompt: { price: 3e-8, unit: 1 }, completion: { price: 3e-8, unit: 1 } },
   'gpt-4o-search-preview' : { prompt: { price: 3e-8, unit: 1 }, completion: { price: 3e-8, unit: 1 } },
   'gpt-4o-search-preview-2025-03-11' : { prompt: { price: 3e-8, unit: 1 }, completion: { price: 3e-8, unit: 1 } },
+  'minimax-m1' : { prompt: { price: 3e-8, unit: 1 }, completion: { price: 3e-8, unit: 1 } },
 
 };
 
