@@ -283,7 +283,7 @@ export const modelMaxToken = {
   'learnlm-1.5-pro-experimental': 128000,
   'chatgpt-4o-latest': 128000,
   'gpt-4o-search-preview': 128000,
-  'gpt-4o-search-preview-2025-03-11': 128000
+  'gpt-4o-search-preview-2025-03-11': 128000,
   'minimax-m1': 128000
 };
 
